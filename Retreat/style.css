@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.intro {
+    font-family: 'Open Sans Bold', sans-serif;
+    font-size: 1.3em;
+    color: white;
+    width: 70vw;
+    margin:0 auto;
+    text-align: justify;
+    line-height: 1.3em;
+    padding: 1em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 1em 4em 0 4em;
+
+}
+
+h1 {
+    font-family: 'Bahiana', cursive;;
+    font-size: 6em;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 0.5em;
+
+}
+h2 {
+    font-family: 'Open Sans Bold', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+img{
+    margin:auto;
+    display:block;
+
+}
+.header{
+
+    background-image: url('img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contall{
+    height: 70em;
+    width: 100vw;
+    background-image: url('img/bg.jpg');
+    background-repeat: repeat-y;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3em;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #2D4823;
+    color: white;
+}
+
+.footer h2 {
+    padding: 1em;
+    font-family: 'Bahiana', cursive;;
+    font-size: 3em;
+}
+
+.circle{
+    height: 30em;
+    width: 30em;
+    background-color:#4F6A13;
+    border-color:black;
+    border-radius: 50%;
+    padding: 4em;
+}
